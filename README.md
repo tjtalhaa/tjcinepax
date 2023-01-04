@@ -36,5 +36,9 @@ Install following dependecies and for 'mui' use --legacy-peer-deps so no issues 
 1. add BrowserRouter from react-router dom in inddex.js nad wrapp App in it
 2. App.js: import route and switch and make the link route for the diffenet pages of application
 3. <Route> is used in <switch> and we use 'exact path' so it takes us to exact page other '/' is first character on each path and it takes us to the home every time
-4. Create components and then add them in route above ,, keep the folder and file arcehtect
-5.
+4. Create components and then add them in route above ,, keep the folder and file architect
+5. for styling we will use style.js (like js) and then import makestules from @mui/stules
+   here in App.js we will import it as useStyles and then using hooksway we will initialise and then call in {classes.root}
+   WE are doing it so theme and other properties can be achieved via MUI
+
+6.
